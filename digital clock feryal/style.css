@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(cc.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    margin: 0;
+    color: #141313;
+}
+
+.clock-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    padding: 1% 7%;
+    box-shadow: 0 0 20px rgba(28, 28, 28, 0.5);
+}
+
+.digital-clock {
+    font-size: 5em;
+    font-weight:200;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #000000; /* Teal color */
+}
+
+.am-pm {
+    font-size: 29px;
+    margin-top: 10px;
+    color: #000000;
+}
+ 
